@@ -1,6 +1,6 @@
 import Foundation
 
-@objc(PhotoLibraryProtocol) class PhotoLibraryProtocol : CDVURLProtocol {
+@objc(PhotoLibraryProtocol) class PhotoLibraryProtocol : URLProtocol {
     
     static let PHOTO_LIBRARY_PROTOCOL = "cdvphotolibrary"
     static let DEFAULT_WIDTH = "512"
