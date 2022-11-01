@@ -25,6 +25,7 @@ import Foundation
         }
     }
 
+    @objc
     func requestAuthorization(_ command: CDVInvokedUrlCommand) {
 
         let service = PhotoLibraryService.instance
@@ -39,6 +40,7 @@ import Foundation
 
     }
 
+    @objc
     func saveImage(_ command: CDVInvokedUrlCommand) {
         concurrentQueue.async {
 
@@ -66,6 +68,7 @@ import Foundation
         }
     }
 
+    @objc
     func saveVideo(_ command: CDVInvokedUrlCommand) {
         concurrentQueue.async {
 
