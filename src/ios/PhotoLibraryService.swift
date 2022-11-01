@@ -528,7 +528,7 @@ final class PhotoLibraryService {
                 if isSuccess {
                     completion(assetId, nil)
                 } else {
-                    completion(nil, "Could not write video to album: \(String(describing: error))")
+                    completion(nil, "Could not write image to album: \(String(describing: error))")
                 }
             }
         }
